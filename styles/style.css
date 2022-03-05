@@ -64,10 +64,15 @@ header>#boxleft>img {
 }
 
 header>#boxleft>a {
+    text-decoration: none;
     padding-top: 5%;
     color: #00AEFF;
     font-size: 17.5px;
     line-height: 24px;
+}
+
+header>#boxleft>a:hover{
+    text-decoration: underline;
 }
 
 main {
